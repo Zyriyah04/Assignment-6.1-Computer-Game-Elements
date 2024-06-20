@@ -1,0 +1,45 @@
+body { /* seting the backgorund color and font for the body */
+    background-color: lightgreen;
+    color: black;
+    font-family: 'Times New Roman', sans-serif;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.form-group { /* style each form group */
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+button { /* style the buttons */
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(237, 228, 41);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: rgb(47, 239, 188); /* changing the color of the hover*/
+}
+.output {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white; /* style the output area */
+}
